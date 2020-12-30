@@ -8,6 +8,6 @@ COPY packages/scaffold/static /app/static
 
 RUN npm i
 
-EXPOSE 80:8080
+EXPOSE 8080
 
 CMD ["node", "index.js"]
